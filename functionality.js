@@ -36,3 +36,14 @@ document.addEventListener('play', function(e){
         }
     }
 }, true);
+
+function toggleCollapseArrow(btnid) {
+    a = $('#'+ btnid + ' i')[0];
+    if (a.classList.contains('fa-chevron-down')) {
+        a.classList.remove('fa-chevron-down');
+        a.classList.add('fa-chevron-up');
+    } else {
+        a.classList.remove('fa-chevron-up');
+        a.classList.add('fa-chevron-down');
+    }
+}

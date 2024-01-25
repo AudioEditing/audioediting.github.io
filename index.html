@@ -1,15 +1,15 @@
 <!doctype html>
 <html>
 <head>
-	<title>TODO</title>
+	<title>AUDI: Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   	<link href="stylefile.css" rel="stylesheet" type="text/css">
 	<meta property="og:image" content="resources/teaser.png"/> 
-	<meta property="og:title" content="TODO" />
-	<meta property="og:description" content="TODO" />
+	<meta property="og:title" content="AUDI: Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion" />
+	<meta property="og:description" content="AUDI: Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script src="https://kit.fontawesome.com/ad96f96272.js" crossorigin="anonymous"></script>
 </head>
@@ -21,7 +21,7 @@
 	<!-- navigation bar on the top, nav bar stick to the top -->
 	<nav id="navbar_top" class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary" style="margin-bottom: 15px;">
 		<div class="container">
-				<a class="navbar-brand" href="">TODO</a>
+				<a class="navbar-brand" href="">AUDI</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -46,9 +46,9 @@
 
 		<!-- top - author names, affiliation and links -->
 		<center>
-			<h1>TODO</h1>
+			<h1>AUDI: Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion</h1>
 			<!-- <h4>Published in</h4> -->
-			<div class="container">
+			<!-- <div class="container">
 				<div class="row justify-content-md-center">
 					<div class="col-md-auto">
 						<span style="font-size:24px">Anonymous Authors</span>
@@ -56,17 +56,17 @@
 				</div>
 			</div>
 
-			<p class="text-center align-middle affilation" style="font-size: 20pt;">Anonymous Affiliation<p>
+			<p class="text-center align-middle affilation" style="font-size: 20pt;">Anonymous Affiliation<p> -->
 		</center>
 		<!-- end top -->
 
 		<!-- abstract and teaser image-->
-		<center>
-			<div class="container" style="margin-top: 20px;">
+		<!-- <center> -->
+			<!-- <div class="container" style="margin-top: 20px;"> -->
 				<!-- <div class="row justify-content-md-center">
 					<img alt="" id="teaser" src="./resources/Teaser.png" style="max-width: 900px;"/>
 				</div> -->
-			</div>
+			<!-- </div> -->
 		<!-- <h1 style="margin-top: 10px;">Abstract</h1>
 		</center>
 		<p>
@@ -477,7 +477,7 @@
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/MDDBBeatles_ours_115-80_pc1_a-40.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/orig/MDDBBeatles_8secs.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/MDDBBeatles_ours_115-80_pc1_a40.mp3" type="audio/mp4"></audio></td>
-                                    <td>Guitar/Singers emphasis</td>
+                                    <td>Lead Guitar/Singers emphasis</td>
                                     <td class="text-center">t'&isin;[115, 80]<br>PC #1</td>
                                 </tr>
                                 <tr>
@@ -486,7 +486,7 @@
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/MDDBBeatles_ours_115-80_pc2_a-40.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/orig/MDDBBeatles_8secs.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/MDDBBeatles_ours_115-80_pc2_a40.mp3" type="audio/mp4"></audio></td>
-                                    <td>Guitar/Singers emphasis</td>
+                                    <td>Singers/Drums emphasis</td>
                                     <td class="text-center">t'&isin;[115, 80]<br>PC #2</td>
                                 </tr>
                                 <tr>
@@ -522,7 +522,7 @@
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a-40.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/orig/ManSpeakingBGNoise.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a40.mp3" type="audio/mp4"></audio></td>
-                                    <td>Separate Woman/Man</td>
+                                    <td>Isolate Woman/Man</td>
                                     <td class="text-center">t'&isin;[115, 95]<br>PC #1</td>
                                 </tr>
                             </tbody>
@@ -541,11 +541,10 @@
             &nbsp; 2.1.2. Music Samples</h3>
             <center>
                 <div class="container show" id="supComparisonsMusicSamples">
-
                     <div class="table-responsive">
                         <table class="table table-sm">
                             <thead>
-                                <tr class="text-center align-middle">
+                                <tr class="text-center">
                                     <th scope="col">#</th>
                                     <th scope="col">Source Prompt</th>
                                     <th scope="col">Target Prompt</th>
@@ -553,320 +552,314 @@
                                     <th scope="col">Ours</th>
                                     <th scope="col">SDEdit<br>skip=100<br>skip=130<br>skip=160</th>
                                     <th scope="col">MusicGen</th>
+                                    <th scope="col">DDIM Inversion</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="text-center align-top">
                                     <th scope="row">1</th>
-                                    <td>A recording of a <b>sneaky jazz song</b>.</td>
-                                    <td>A recording of a <b>tense classical music score</b>.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBFreeJazz.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">A recording of a <b>sneaky jazz song</b>.</td>
+                                    <td class="text-center align-top">A recording of a <b>tense classical music score</b>.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBFreeJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/orchestra_MDDBFreeJazz_ours_90.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/orchestra_MDDBFreeJazz_ours_90.mp3" type="audio/mp4"></audio>
                                         <br>skip=90
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/orchestra_MDDBFreeJazz_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/orchestra_MDDBFreeJazz_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/orchestra_MDDBFreeJazz_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/orchestra_MDDBFreeJazz_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/orchestra_MDDBFreeJazz_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/orchestra_MDDBFreeJazz_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/orchestra_MDDBFreeJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/orchestra_MDDBFreeJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/orchestra_MDDBFreeJazz_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">2</th>
-                                    <td>A recording of <b>a rock song</b>.</td>
-                                    <td>A recording of <b>Arabic music</b>.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBBritpop.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">A recording of <b>a rock song</b>.</td>
+                                    <td class="text-center align-top">A recording of <b>Arabic music</b>.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBritpop.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/arabic_MDDBBritpop_ours_90.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arabic_MDDBBritpop_ours_90.mp3" type="audio/mp4"></audio>
                                         <br>skip=90
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arabic_MDDBBritpop_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arabic_MDDBBritpop_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arabic_MDDBBritpop_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arabic_MDDBBritpop_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arabic_MDDBBritpop_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arabic_MDDBBritpop_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/arabic_MDDBBritpop_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/arabic_MDDBBritpop_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/arabic_MDDBBritpop_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">3</th>
-                                    <td>A recording of an <b>upbeat rock song</b>.</td>
-                                    <td>A recording of an <b>arcade game soundtrack</b>.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBBeatles.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">A recording of an <b>upbeat rock song</b>.</td>
+                                    <td class="text-center align-top">A recording of an <b>arcade game soundtrack</b>.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBeatles.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBBeatles_ours_100.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBBeatles_ours_100.mp3" type="audio/mp4"></audio>
                                         <br>skip=100
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBeatles_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBeatles_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBeatles_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBeatles_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBeatles_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBeatles_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/arcade_MDDBBeatles_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/arcade_MDDBBeatles_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/arcade_MDDBBeatles_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-
                                 <tr class="text-center align-top">
                                     <th scope="row">4</th>
-                                    <td>&mdash;&mdash;</td>
-                                    <td>A recording of a dark techno song.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBBeethoven.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">&mdash;</td>
+                                    <td class="text-center align-top">A recording of a dark techno song.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBeethoven.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/techno_MDDBBeethoven_ours_110.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/techno_MDDBBeethoven_ours_110.mp3" type="audio/mp4"></audio>
                                         <br>skip=110
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/techno_MDDBBeethoven_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/techno_MDDBBeethoven_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/techno_MDDBBeethoven_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/techno_MDDBBeethoven_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/techno_MDDBBeethoven_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/techno_MDDBBeethoven_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/techno_MDDBBeethoven_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/techno_MDDBBeethoven_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/techno_MDDBBeethoven_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">5</th>
-                                    <td>&mdash;&mdash;</td>
-                                    <td>A recording of a funky hip hop song.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBFunkJazz.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">&mdash;</td>
+                                    <td class="text-center align-top">A recording of a funky hip hop song.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBFunkJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/hiphop_MDDBFunkJazz_ours_90.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/hiphop_MDDBFunkJazz_ours_90.mp3" type="audio/mp4"></audio>
                                         <br>skip=90
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/hiphop_MDDBFunkJazz_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/hiphop_MDDBFunkJazz_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/hiphop_MDDBFunkJazz_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/hiphop_MDDBFunkJazz_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/hiphop_MDDBFunkJazz_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/hiphop_MDDBFunkJazz_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/hiphop_MDDBFunkJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/hiphop_MDDBFunkJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/hiphop_MDDBFunkJazz_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">6</th>
-                                    <td>&mdash;&mdash;</td>
-                                    <td>A recording of an upbeat arcade game soundtrack.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBBebopJazz.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">&mdash;</td>
+                                    <td class="text-center align-top">A recording of an upbeat arcade game soundtrack.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBebopJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBBebopJazz_ours_120.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBBebopJazz_ours_120.mp3" type="audio/mp4"></audio>
                                         <br>skip=120
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBebopJazz_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBebopJazz_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBebopJazz_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBebopJazz_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBebopJazz_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBBebopJazz_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/arcade_MDDBBebopJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/arcade_MDDBBebopJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/arcade_MDDBBebopJazz_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">7</th>
-                                    <td>&mdash;&mdash;</td>
-                                    <td>A recording of an upbeat cool jazz song.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBPunk.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">&mdash;</td>
+                                    <td class="text-center align-top">A recording of an upbeat cool jazz song.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBPunk.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/jazz_MDDBPunk_ours_110.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/jazz_MDDBPunk_ours_110.mp3" type="audio/mp4"></audio>
                                         <br>skip=110
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/jazz_MDDBPunk_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/jazz_MDDBPunk_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/jazz_MDDBPunk_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/jazz_MDDBPunk_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/jazz_MDDBPunk_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/jazz_MDDBPunk_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/jazz_MDDBPunk_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/jazz_MDDBPunk_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/jazz_MDDBPunk_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">8</th>
-                                    <td>A recording of an upbeat <b>gospel</b> song.</td>
-                                    <td>A recording of an upbeat <b>techno</b> song.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBGospel.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">A recording of an upbeat <b>gospel</b> song.</td>
+                                    <td class="text-center align-top">A recording of an upbeat <b>techno</b> song.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBGospel.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/techno_MDDBGospel_ours_100.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/techno_MDDBGospel_ours_100.mp3" type="audio/mp4"></audio>
                                         <br>skip=100
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/techno_MDDBGospel_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/techno_MDDBGospel_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/techno_MDDBGospel_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/techno_MDDBGospel_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/techno_MDDBGospel_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/techno_MDDBGospel_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/techno_MDDBGospel_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/techno_MDDBGospel_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/techno_MDDBGospel_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">9</th>
-                                    <td><b>Trumpets</b> playing alongside a piano, bass and drums in an upbeat old-timey cool <b>jazz</b> song.</td>
-                                    <td><b>A banjo</b> playing alongside a piano, bass and drums in an upbeat old-timey cool <b>country</b> song.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBModalJazz.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><b>Trumpets</b> playing alongside a piano, bass and drums in an upbeat old-timey cool <b>jazz</b> song.</td>
+                                    <td class="text-center align-top"><b>A banjo</b> playing alongside a piano, bass and drums in an upbeat old-timey cool <b>country</b> song.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBModalJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/country_MDDBModalJazz_ours_110.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/country_MDDBModalJazz_ours_110.mp3" type="audio/mp4"></audio>
                                         <br>skip=110
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/country_MDDBModalJazz_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/country_MDDBModalJazz_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/country_MDDBModalJazz_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/country_MDDBModalJazz_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/country_MDDBModalJazz_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/country_MDDBModalJazz_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/country_MDDBModalJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/country_MDDBModalJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/country_MDDBModalJazz_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">10</th>
-                                    <td>A recording of a dramatic <b>epic Chinese</b> piece.</td>
-                                    <td>A recording of a dramatic <b>heavy metal</b> piece.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBChineseDrama.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">A recording of a dramatic <b>epic Chinese</b> piece.</td>
+                                    <td class="text-center align-top">A recording of a dramatic <b>heavy metal</b> piece.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBChineseDrama.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/metal_MDDBChineseDrama_ours_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/metal_MDDBChineseDrama_ours_160.mp3" type="audio/mp4"></audio>
                                         <br>skip=160
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/metal_MDDBChineseDrama_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/metal_MDDBChineseDrama_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/metal_MDDBChineseDrama_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/metal_MDDBChineseDrama_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/metal_MDDBChineseDrama_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/metal_MDDBChineseDrama_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/metal_MDDBChineseDrama_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/metal_MDDBChineseDrama_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/metal_MDDBChineseDrama_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">11</th>
-                                    <td>Chinese strings, flutes, and harps playing an <b>upbeat</b> piece.</td>
-                                    <td>Chinese strings, flutes, and harps playing an <b>somber</b> piece.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBChineseChaoZhou.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">Chinese strings, flutes, and harps playing an <b>upbeat</b> piece.</td>
+                                    <td class="text-center align-top">Chinese strings, flutes, and harps playing an <b>somber</b> piece.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBChineseChaoZhou.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/tone_MDDBChineseChaoZhou_ours_120.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/tone_MDDBChineseChaoZhou_ours_120.mp3" type="audio/mp4"></audio>
                                         <br>skip=120
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/tone_MDDBChineseChaoZhou_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/tone_MDDBChineseChaoZhou_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/tone_MDDBChineseChaoZhou_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/tone_MDDBChineseChaoZhou_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/tone_MDDBChineseChaoZhou_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/tone_MDDBChineseChaoZhou_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/tone_MDDBChineseChaoZhou_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/tone_MDDBChineseChaoZhou_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/tone_MDDBChineseChaoZhou_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">12</th>
-                                    <td>A high quality recording of <b>wind instruments and strings</b> playing.</td>
-                                    <td>A high quality recording of <b>a piano</b> playing.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBBeethoven.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">A high quality recording of <b>wind instruments and strings</b> playing.</td>
+                                    <td class="text-center align-top">A high quality recording of <b>a piano</b> playing.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBeethoven.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/instrument_MDDBBeethoven_ours_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/instrument_MDDBBeethoven_ours_130.mp3" type="audio/mp4"></audio>
                                         <br>skip=130
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/instrument_MDDBBeethoven_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/instrument_MDDBBeethoven_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/instrument_MDDBBeethoven_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/instrument_MDDBBeethoven_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/instrument_MDDBBeethoven_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/instrument_MDDBBeethoven_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/instrument_MDDBBeethoven_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/instrument_MDDBBeethoven_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/instrument_MDDBBeethoven_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                
                                 <tr class="text-center align-top">
                                     <th scope="row">13</th>
-                                    <td>&mdash;&mdash;</td>
-                                    <td>A recording of a happy arcade game soundtrack.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBChineseYaoZu.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">&mdash;</td>
+                                    <td class="text-center align-top">A recording of a happy arcade game soundtrack.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBChineseYaoZu.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBChineseYaoZu_ours_90.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBChineseYaoZu_ours_90.mp3" type="audio/mp4"></audio>
                                         <br>skip=90
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBChineseYaoZu_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBChineseYaoZu_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBChineseYaoZu_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBChineseYaoZu_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBChineseYaoZu_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBChineseYaoZu_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/arcade_MDDBChineseYaoZu_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/arcade_MDDBChineseYaoZu_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/arcade_MDDBChineseYaoZu_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                                                
                                 <tr class="text-center align-top">
                                     <th scope="row">14</th>
-                                    <td>A recording of a <b>hard rock</b> song.</td>
-                                    <td>A recording of a <b>jazz</b> song.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBZeppelin.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">A recording of a <b>hard rock</b> song.</td>
+                                    <td class="text-center align-top">A recording of a <b>jazz</b> song.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBZeppelin.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/jazz_MDDBZeppelin_ours_100.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/jazz_MDDBZeppelin_ours_100.mp3" type="audio/mp4"></audio>
                                         <br>skip=100
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/jazz_MDDBZeppelin_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/jazz_MDDBZeppelin_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/jazz_MDDBZeppelin_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/jazz_MDDBZeppelin_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/jazz_MDDBZeppelin_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/jazz_MDDBZeppelin_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/jazz_MDDBZeppelin_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/jazz_MDDBZeppelin_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/jazz_MDDBZeppelin_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                                                
                                 <tr class="text-center align-top">
                                     <th scope="row">15</th>
-                                    <td>A recording of an <b>old rock</b> song.</td>
-                                    <td>A recording of an <b>techno</b> song.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBRockabilly.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">A recording of an <b>old rock</b> song.</td>
+                                    <td class="text-center align-top">A recording of an <b>techno</b> song.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBRockabilly.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/techno_MDDBRockabilly_ours_110.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/techno_MDDBRockabilly_ours_110.mp3" type="audio/mp4"></audio>
                                         <br>skip=110
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/techno_MDDBRockabilly_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/techno_MDDBRockabilly_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/techno_MDDBRockabilly_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/techno_MDDBRockabilly_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/techno_MDDBRockabilly_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/techno_MDDBRockabilly_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/techno_MDDBRockabilly_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/techno_MDDBRockabilly_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/techno_MDDBRockabilly_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
                                 <tr class="text-center align-top">
                                     <th scope="row">16</th>
-                                    <td>A recording of a happy upbeat song in a <b>Latin jazz</b> style.</td>
-                                    <td>A recording of a happy upbeat song in a <b>retro arcade game soundtrack</b> style.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBLatinJazz.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top">A recording of a happy upbeat song in a <b>Latin jazz</b> style.</td>
+                                    <td class="text-center align-top">A recording of a happy upbeat song in a <b>retro arcade game soundtrack</b> style.</td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBLatinJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBLatinJazz_ours_110.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBLatinJazz_ours_110.mp3" type="audio/mp4"></audio>
                                         <br>skip=110
                                     </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBLatinJazz_sdedit_100.mp3" type="audio/mp4"></audio>
+                                    <td class="text-center align-top align-top">
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBLatinJazz_sdedit_100.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBLatinJazz_sdedit_130.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBLatinJazz_sdedit_130.mp3" type="audio/mp4"></audio>
                                         <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/arcade_MDDBLatinJazz_sdedit_160.mp3" type="audio/mp4"></audio>
+                                        <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sdedit/arcade_MDDBLatinJazz_sdedit_160.mp3" type="audio/mp4"></audio>
                                     </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/arcade_MDDBLatinJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/arcade_MDDBLatinJazz_musicgen.mp3" type="audio/mp4"></audio></td>
+                                    <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/arcade_MDDBLatinJazz_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                                                <!-- <tr class="text-center align-top">
-                                    <th scope="row">4</th>
-                                    <td>A high quality recording of <b>an electric guitar</b> playing a cool <b>metal</b> solo with accompaniment.</td>
-                                    <td>A high quality recording of <b>a saxophone</b> playing a cool <b>jazz</b> solo with accompaniment.</td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/orig/MDDBSpeedMetal.mp3" type="audio/mp4"></audio></td>
-                                    <td class="text-center align-top">
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sup_samples/jazz_MDDBSpeedMetal_ours_100.mp3" type="audio/mp4"></audio>
-                                        <br>skip=100
-                                    </td>
-                                    <td>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/jazz_MDDBSpeedMetal_sdedit_100.mp3" type="audio/mp4"></audio>
-                                        <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/jazz_MDDBSpeedMetal_sdedit_130.mp3" type="audio/mp4"></audio>
-                                        <br>
-                                        <audio preload="auto" class="shortaudio" controls><source src="./resources/audio/sdedit/jazz_MDDBSpeedMetal_sdedit_160.mp3" type="audio/mp4"></audio>
-                                    </td>
-                                    <td><audio preload="auto" class="shortaudio" controls><source src="./resources/audio/musicgen/jazz_MDDBSpeedMetal_musicgen.mp3" type="audio/mp4"></audio></td>
-                                </tr> -->
-
                             </tbody>
                         </table>
                     </div>
@@ -893,6 +886,7 @@
                                 <th scope="col">SDEdit skip=80</th>
                                 <th scope="col">SDEdit skip=100</th>
                                 <th scope="col">SDEdit skip=130</th>
+                                <th scope="col">DDIM Inversion</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -906,6 +900,7 @@
                                 <td><audio class="shorteraudio" controls><source src="./resources/audio/sdedit/CuteCat_10sec_sdedit_80.mp3" type="audio/mp4"></audio></td>
                                 <td><audio class="shorteraudio" controls><source src="./resources/audio/sdedit/CuteCat_10sec_sdedit_100.mp3" type="audio/mp4"></audio></td>
                                 <td><audio class="shorteraudio" controls><source src="./resources/audio/sdedit/CuteCat_10sec_sdedit_130.mp3" type="audio/mp4"></audio></td>
+                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/CuteCat_10sec_ddim.mp3" type="audio/mp4"></audio></td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
@@ -917,6 +912,7 @@
                                 <td><audio class="shorteraudio" controls><source src="./resources/audio/sdedit/DogBarking_10sec_sdedit_80.mp3" type="audio/mp4"></audio></td>
                                 <td><audio class="shorteraudio" controls><source src="./resources/audio/sdedit/DogBarking_10sec_sdedit_100.mp3" type="audio/mp4"></audio></td>
                                 <td><audio class="shorteraudio" controls><source src="./resources/audio/sdedit/DogBarking_10sec_sdedit_130.mp3" type="audio/mp4"></audio></td>
+                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/DogBarking_10sec_ddim.mp3" type="audio/mp4"></audio></td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
@@ -928,6 +924,7 @@
                                 <td><audio class="shorteraudio" controls><source src="./resources/audio/sdedit/Shouting_sdedit_80.mp3" type="audio/mp4"></audio></td>
                                 <td><audio class="shorteraudio" controls><source src="./resources/audio/sdedit/Shouting_sdedit_100.mp3" type="audio/mp4"></audio></td>
                                 <td><audio class="shorteraudio" controls><source src="./resources/audio/sdedit/Shouting_sdedit_130.mp3" type="audio/mp4"></audio></td>
+                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/Shouting_ddim.mp3" type="audio/mp4"></audio></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1089,95 +1086,6 @@
                 </div>
 			</center>
 		<br>
-
-        <hr>
-        <h2 id="ddim" class="anchor"><button type="button" id="ddimComparisonsSamplesBtn" onclick="toggleCollapseArrow('ddimComparisonsSamplesBtn')" class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#ddimComparisonsSamples" aria-expanded="true" aria-controls="ddimComparisonsSamples"><i class="fas fa-chevron-down"></i></button>
-            &nbsp; 3. DDIM Samples</h3>
-        <center>
-            <div class="container show" id="ddimComparisonsSamples">
-                <div class="table-responsive">
-                    <table class="table table-sm">
-                        <thead>
-                            <tr class="text-center">
-                                <th scope="col">#</th>
-                                <th scope="col">Source Prompt</th>
-                                <th scope="col">Target Prompt</th>
-                                <th scope="col">Original Audio</th>
-                                <th scope="col">Ours</th>
-                                <th scope="col">DDIM, 10 Inf. Steps</th>
-                                <th scope="col">DDIM, 25 Inf. Steps</th>
-                                <th scope="col">DDIM, 50 Inf. Steps</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>A high quality recording of a cat meowing.</td>
-                                <td>A high quality recording of a dog barking.</td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/orig/CuteCat_10sec.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/sup_samples/CuteCat_10sec_ours_50.mp3" type="audio/mp4"></audio>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/CuteCat_10sec_ddim_10.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/CuteCat_10sec_ddim_25.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/CuteCat_10sec_ddim_50.mp3" type="audio/mp4"></audio></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>A high quality recording of a dog barking a lot.</td>
-                                <td>A high quality recording of a gun shooting a lot.</td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/orig/DogBarking_10sec.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/sup_samples/DogBarking_10sec_ours_100.mp3" type="audio/mp4"></audio>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/DogBarking_10sec_ddim_10.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/DogBarking_10sec_ddim_25.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/DogBarking_10sec_ddim_50.mp3" type="audio/mp4"></audio></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>A kid talking loudly.</td>
-                                <td>A rooster crowing.</td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/orig/Shouting.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/sup_samples/Shouting_ours_90.mp3" type="audio/mp4"></audio>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/Shouting_ddim_10.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/Shouting_ddim_25.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/Shouting_ddim_50.mp3" type="audio/mp4"></audio></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">4</th>
-                                <td>A recording of an upbeat rock song.</td>
-                                <td>A recording of an arcade game soundtrack.</td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBeatles.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBBeatles_ours_100.mp3" type="audio/mp4"></audio>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/MusicDelta_Beatles_MIX_ddim_10.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/MusicDelta_Beatles_MIX_ddim_25.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/MusicDelta_Beatles_MIX_ddim_50.mp3" type="audio/mp4"></audio></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">5</th>
-                                <td>&mdash;</td>
-                                <td>A recording of a funky jazz song.</td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBeethoven.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/sup_samples/MDDBBeethoven_skipex2_ours_90.mp3" type="audio/mp4"></audio>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/MusicDelta_Beethoven_MIX_ddim_10.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/MusicDelta_Beethoven_MIX_ddim_25.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/MusicDelta_Beethoven_MIX_ddim_50.mp3" type="audio/mp4"></audio></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">6</th>
-                                <td>Trumpets playing alongside a piano, bass and drums in an upbeat old-timey cool jazz song.</td>
-                                <td>A banjo playing alongside a piano, bass and drums in an upbeat old-timey cool country song.</td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/orig/MDDBModalJazz.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/sup_samples/country_MDDBModalJazz_ours_110.mp3" type="audio/mp4"></audio>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/MusicDelta_ModalJazz_MIX_ddim_10.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/MusicDelta_ModalJazz_MIX_ddim_25.mp3" type="audio/mp4"></audio></td>
-                                <td><audio class="shorteraudio" controls><source src="./resources/audio/ddim/MusicDelta_ModalJazz_MIX_ddim_50.mp3" type="audio/mp4"></audio></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <br>
-
-            </div>
-        </center>
-	<br>
 
 </div>
 

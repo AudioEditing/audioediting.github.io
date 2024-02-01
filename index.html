@@ -1,15 +1,15 @@
 <!doctype html>
 <html>
 <head>
-	<title>AUDI: Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion</title>
+	<title>Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   	<link href="stylefile.css" rel="stylesheet" type="text/css">
 	<meta property="og:image" content="resources/teaser.png"/> 
-	<meta property="og:title" content="AUDI: Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion" />
-	<meta property="og:description" content="AUDI: Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion" />
+	<meta property="og:title" content="Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion" />
+	<meta property="og:description" content="Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script src="https://kit.fontawesome.com/ad96f96272.js" crossorigin="anonymous"></script>
 </head>
@@ -21,7 +21,7 @@
 	<!-- navigation bar on the top, nav bar stick to the top -->
 	<nav id="navbar_top" class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary" style="margin-bottom: 15px;">
 		<div class="container">
-				<a class="navbar-brand" href="">AUDI</a>
+				<a class="navbar-brand" href="">Zero-Shot Unsupervised and Text-Based Audio Editing</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -46,7 +46,7 @@
 
 		<!-- top - author names, affiliation and links -->
 		<center>
-			<h1>AUDI: Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion</h1>
+			<h1>Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion</h1>
 			<!-- <h4>Published in</h4> -->
 			<!-- <div class="container">
 				<div class="row justify-content-md-center">
@@ -303,7 +303,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
-                                    <td>&mdash;</td>
+                                    <td class="text-center">&mdash;</td>
                                     <td>A recording of a funky jazz song.</td>
                                     <td><audio class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBeethoven.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center">
@@ -391,7 +391,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
-                                    <td></td>
+                                    <td class="text-center">&mdash;</td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/orig/MDDBReggae_8secs.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/MDDBReggae_ours_150--1_spts80_pcs_a-1.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/MDDBReggae_ours_150--1_spts80_pcs_a-2.mp3" type="audio/mp4"></audio></td>
@@ -518,7 +518,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">6</th>
-                                    <td>&mdash;</td>
+                                    <td class="text-center">&mdash;</td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a-40.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/orig/ManSpeakingBGNoise.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shortaudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a40.mp3" type="audio/mp4"></audio></td>
@@ -556,10 +556,10 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">1</th>
-                                    <td class="text-center align-top">A recording of a <b>sneaky jazz song</b>.</td>
-                                    <td class="text-center align-top">A recording of a <b>tense classical music score</b>.</td>
+                                    <td class="text-left align-top">A recording of a <b>sneaky jazz song</b>.</td>
+                                    <td class="align-top">A recording of a <b>tense classical music score</b>.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBFreeJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/orchestra_MDDBFreeJazz_ours_90.mp3" type="audio/mp4"></audio>
@@ -575,10 +575,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/orchestra_MDDBFreeJazz_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/orchestra_MDDBFreeJazz_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">2</th>
-                                    <td class="text-center align-top">A recording of <b>a rock song</b>.</td>
-                                    <td class="text-center align-top">A recording of <b>Arabic music</b>.</td>
+                                    <td class="align-top">A recording of <b>a rock song</b>.</td>
+                                    <td class="align-top">A recording of <b>Arabic music</b>.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBritpop.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arabic_MDDBBritpop_ours_90.mp3" type="audio/mp4"></audio>
@@ -594,10 +594,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/arabic_MDDBBritpop_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/arabic_MDDBBritpop_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">3</th>
-                                    <td class="text-center align-top">A recording of an <b>upbeat rock song</b>.</td>
-                                    <td class="text-center align-top">A recording of an <b>arcade game soundtrack</b>.</td>
+                                    <td class="align-top">A recording of an <b>upbeat rock song</b>.</td>
+                                    <td class="align-top">A recording of an <b>arcade game soundtrack</b>.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBeatles.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBBeatles_ours_100.mp3" type="audio/mp4"></audio>
@@ -613,10 +613,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/arcade_MDDBBeatles_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/arcade_MDDBBeatles_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">4</th>
-                                    <td class="text-center align-top">&mdash;</td>
-                                    <td class="text-center align-top">A recording of a dark techno song.</td>
+                                    <td class="align-top text-center">&mdash;</td>
+                                    <td class="align-top">A recording of a dark techno song.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBeethoven.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/techno_MDDBBeethoven_ours_110.mp3" type="audio/mp4"></audio>
@@ -632,10 +632,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/techno_MDDBBeethoven_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/techno_MDDBBeethoven_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">5</th>
-                                    <td class="text-center align-top">&mdash;</td>
-                                    <td class="text-center align-top">A recording of a funky hip hop song.</td>
+                                    <td class="align-top text-center">&mdash;</td>
+                                    <td class="align-top">A recording of a funky hip hop song.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBFunkJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/hiphop_MDDBFunkJazz_ours_90.mp3" type="audio/mp4"></audio>
@@ -651,10 +651,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/hiphop_MDDBFunkJazz_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/hiphop_MDDBFunkJazz_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">6</th>
-                                    <td class="text-center align-top">&mdash;</td>
-                                    <td class="text-center align-top">A recording of an upbeat arcade game soundtrack.</td>
+                                    <td class="align-top text-center">&mdash;</td>
+                                    <td class="align-top">A recording of an upbeat arcade game soundtrack.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBebopJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBBebopJazz_ours_120.mp3" type="audio/mp4"></audio>
@@ -670,10 +670,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/arcade_MDDBBebopJazz_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/arcade_MDDBBebopJazz_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">7</th>
-                                    <td class="text-center align-top">&mdash;</td>
-                                    <td class="text-center align-top">A recording of an upbeat cool jazz song.</td>
+                                    <td class="align-top text-center">&mdash;</td>
+                                    <td class="align-top">A recording of an upbeat cool jazz song.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBPunk.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/jazz_MDDBPunk_ours_110.mp3" type="audio/mp4"></audio>
@@ -689,10 +689,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/jazz_MDDBPunk_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/jazz_MDDBPunk_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">8</th>
-                                    <td class="text-center align-top">A recording of an upbeat <b>gospel</b> song.</td>
-                                    <td class="text-center align-top">A recording of an upbeat <b>techno</b> song.</td>
+                                    <td class="align-top">A recording of an upbeat <b>gospel</b> song.</td>
+                                    <td class="align-top">A recording of an upbeat <b>techno</b> song.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBGospel.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/techno_MDDBGospel_ours_100.mp3" type="audio/mp4"></audio>
@@ -708,10 +708,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/techno_MDDBGospel_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/techno_MDDBGospel_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">9</th>
-                                    <td class="text-center align-top"><b>Trumpets</b> playing alongside a piano, bass and drums in an upbeat old-timey cool <b>jazz</b> song.</td>
-                                    <td class="text-center align-top"><b>A banjo</b> playing alongside a piano, bass and drums in an upbeat old-timey cool <b>country</b> song.</td>
+                                    <td class="align-top"><b>Trumpets</b> playing alongside a piano, bass and drums in an upbeat old-timey cool <b>jazz</b> song.</td>
+                                    <td class="align-top"><b>A banjo</b> playing alongside a piano, bass and drums in an upbeat old-timey cool <b>country</b> song.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBModalJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/country_MDDBModalJazz_ours_110.mp3" type="audio/mp4"></audio>
@@ -727,10 +727,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/country_MDDBModalJazz_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/country_MDDBModalJazz_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">10</th>
-                                    <td class="text-center align-top">A recording of a dramatic <b>epic Chinese</b> piece.</td>
-                                    <td class="text-center align-top">A recording of a dramatic <b>heavy metal</b> piece.</td>
+                                    <td class="align-top">A recording of a dramatic <b>epic Chinese</b> piece.</td>
+                                    <td class="align-top">A recording of a dramatic <b>heavy metal</b> piece.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBChineseDrama.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/metal_MDDBChineseDrama_ours_160.mp3" type="audio/mp4"></audio>
@@ -746,10 +746,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/metal_MDDBChineseDrama_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/metal_MDDBChineseDrama_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">11</th>
-                                    <td class="text-center align-top">Chinese strings, flutes, and harps playing an <b>upbeat</b> piece.</td>
-                                    <td class="text-center align-top">Chinese strings, flutes, and harps playing an <b>somber</b> piece.</td>
+                                    <td class="align-top">Chinese strings, flutes, and harps playing an <b>upbeat</b> piece.</td>
+                                    <td class="align-top">Chinese strings, flutes, and harps playing an <b>somber</b> piece.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBChineseChaoZhou.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/tone_MDDBChineseChaoZhou_ours_120.mp3" type="audio/mp4"></audio>
@@ -765,10 +765,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/tone_MDDBChineseChaoZhou_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/tone_MDDBChineseChaoZhou_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">12</th>
-                                    <td class="text-center align-top">A high quality recording of <b>wind instruments and strings</b> playing.</td>
-                                    <td class="text-center align-top">A high quality recording of <b>a piano</b> playing.</td>
+                                    <td class="align-top">A high quality recording of <b>wind instruments and strings</b> playing.</td>
+                                    <td class="align-top">A high quality recording of <b>a piano</b> playing.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBBeethoven.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/instrument_MDDBBeethoven_ours_130.mp3" type="audio/mp4"></audio>
@@ -784,10 +784,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/instrument_MDDBBeethoven_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/instrument_MDDBBeethoven_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">13</th>
-                                    <td class="text-center align-top">&mdash;</td>
-                                    <td class="text-center align-top">A recording of a happy arcade game soundtrack.</td>
+                                    <td class="align-top text-center">&mdash;</td>
+                                    <td class="align-top">A recording of a happy arcade game soundtrack.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBChineseYaoZu.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBChineseYaoZu_ours_90.mp3" type="audio/mp4"></audio>
@@ -803,10 +803,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/arcade_MDDBChineseYaoZu_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/arcade_MDDBChineseYaoZu_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">14</th>
-                                    <td class="text-center align-top">A recording of a <b>hard rock</b> song.</td>
-                                    <td class="text-center align-top">A recording of a <b>jazz</b> song.</td>
+                                    <td class=" align-top">A recording of a <b>hard rock</b> song.</td>
+                                    <td class=" align-top">A recording of a <b>jazz</b> song.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBZeppelin.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/jazz_MDDBZeppelin_ours_100.mp3" type="audio/mp4"></audio>
@@ -822,10 +822,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/jazz_MDDBZeppelin_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/jazz_MDDBZeppelin_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">15</th>
-                                    <td class="text-center align-top">A recording of an <b>old rock</b> song.</td>
-                                    <td class="text-center align-top">A recording of an <b>techno</b> song.</td>
+                                    <td class="align-top">A recording of an <b>old rock</b> song.</td>
+                                    <td class="align-top">A recording of an <b>techno</b> song.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBRockabilly.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/techno_MDDBRockabilly_ours_110.mp3" type="audio/mp4"></audio>
@@ -841,10 +841,10 @@
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/musicgen/techno_MDDBRockabilly_musicgen.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/ddim/techno_MDDBRockabilly_ddim.mp3" type="audio/mp4"></audio></td>
                                 </tr>
-                                <tr class="text-center align-top">
+                                <tr class="align-top">
                                     <th scope="row">16</th>
-                                    <td class="text-center align-top">A recording of a happy upbeat song in a <b>Latin jazz</b> style.</td>
-                                    <td class="text-center align-top">A recording of a happy upbeat song in a <b>retro arcade game soundtrack</b> style.</td>
+                                    <td class="align-top">A recording of a happy upbeat song in a <b>Latin jazz</b> style.</td>
+                                    <td class="align-top">A recording of a happy upbeat song in a <b>retro arcade game soundtrack</b> style.</td>
                                     <td class="text-center align-top"><audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/orig/MDDBLatinJazz.mp3" type="audio/mp4"></audio></td>
                                     <td class="text-center align-top">
                                         <audio preload="auto" class="shorteraudio" controls><source src="./resources/audio/sup_samples/arcade_MDDBLatinJazz_ours_110.mp3" type="audio/mp4"></audio>
@@ -980,7 +980,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
-                                    <td>&mdash;</td>
+                                    <td class="text-center">&mdash;</td>
                                     <td><audio class="shorteraudio" controls><source src="./resources/audio/orig/MDDBReggae_8secs.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBReggae_8sec_ours_150--1_spts80_pcs_a-2.mp3" type="audio/mp4"></audio></td>
                                     <td><audio class="shorteraudio" controls><source src="./resources/audio/unsup_sdedit/MDDBReggae_8sec_skip85.mp3" type="audio/mp4"></audio></td>
@@ -1081,8 +1081,120 @@
                         </table>
                     </div>
                     <br>
+                </div>
+			</center>
+		<br>
 
-                    
+        <hr>
+		<h1 id="randv" style="margin-top: 65px;" class="anchor" >
+            <button type="button" id="randVComparisonsSamplesBtn" onclick="toggleCollapseArrow('randVComparisonsSamplesBtn')" 
+            class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#randVComparisonsSamples" aria-expanded="true" 
+            aria-controls="randVComparisonsSamples"><i class="fas fa-chevron-down"></i></button>
+            &nbsp; 3. Comparison of Unsupervised Editing Directions With Random Directions</h1>
+            <center>
+                <div class="container show" id="randVComparisonsSamples">
+                    <div class="table-responsive">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr class="text-center">
+                                    <th scope="col">#</th>
+                                    <th scope="col">Type</th>
+                                    <th scope="col">Inversion Prompt</th>
+                                    <th scope="col" colspan="3" style="border-right-style:inherit!important;border-right-width:0.1rem!important;border-right-color:inherit!important;border-left-style:inherit!important;border-left-width:0.1rem!important;border-left-color:inherit!important;">Edited Audios -&gamma;PC</th>
+                                    <th scope="col">Original Audio</th>
+                                    <th scope="col" colspan="3" style="border-right-style:inherit!important;border-right-width:0.1rem!important;border-right-color:inherit!important;border-left-style:inherit!important;border-left-width:0.1rem!important;border-left-color:inherit!important;">Edited Audios +&gamma;PC</th>
+                                    <th scope="col">PC Interpretation</th>
+                                    <th scope="col">Edit Parameters</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" rowspan="2">1</th>
+                                    <td>Random</td>
+                                    <td>A high quality recording of a man singing with a rock band accompaniment.</td>
+                                   <td class="text-center"  style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;" ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_RAND_a-12.mp3" type="audio/mp4"></audio><br>&gamma; = -12</td>
+                                   <td class="text-center"   ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_RAND_a-8.mp3" type="audio/mp4"></audio><br>&gamma; = -8</td>
+                                   <td class="text-center" style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;"  ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_RAND_a-2.mp3" type="audio/mp4"></audio><br>&gamma; = -2</td>
+                                    <td class="text-center"><audio class="shorteraudio" controls><source src="./resources/audio/orig/MDDBHendrix_8secs.mp3" type="audio/mp4"></audio></td>
+                                   <td class="text-center" style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;"  "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_RAND_a2.mp3" type="audio/mp4"></audio><br>&gamma; = 2</td>
+                                   <td class="text-center"   "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_RAND_a8.mp3" type="audio/mp4"></audio><br>&gamma; = 8</td>
+                                   <td class="text-center"  style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;" "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_RAND_a12.mp3" type="audio/mp4"></audio><br>&gamma; = 12</td>
+                                    <td></td>
+                                    <td class="text-center">t'&isin;[200, -1]<br>Specific t=80 used<br>PC #1</td>
+                                </tr>
+                                <tr>
+                                    <td>Ours</td>
+                                    <td>A high quality recording of a man singing with a rock band accompaniment.</td>
+                                   <td class="text-center"  style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;" ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_a-3.mp3" type="audio/mp4"></audio><br>&gamma; = -3</td>
+                                   <td class="text-center"   ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_a-2.mp3" type="audio/mp4"></audio><br>&gamma; = -2</td>
+                                   <td class="text-center" style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;"  ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_a-1.mp3" type="audio/mp4"></audio><br>&gamma; = -1</td>
+                                    <td class="text-center"><audio class="shorteraudio" controls><source src="./resources/audio/orig/MDDBHendrix_8secs.mp3" type="audio/mp4"></audio></td>
+                                   <td class="text-center" style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;"  "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_a1.mp3" type="audio/mp4"></audio><br>&gamma; = 1</td>
+                                   <td class="text-center"   "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_a2.mp3" type="audio/mp4"></audio><br>&gamma; = 2</td>
+                                   <td class="text-center"  style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;" "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBHendrix_ours_200--1_spts80_pc1_a3.mp3" type="audio/mp4"></audio><br>&gamma; = 3</td>
+                                    <td>Drum-beat style</td>
+                                    <td class="text-center">t'&isin;[200, -1]<br>Specific t=80 used<br>PC #1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">3</th>
+                                    <td>Random</td>
+                                    <td class="text-center">&mdash;</td>
+                                   <td class="text-center"  style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;" ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_RAND_a-240.mp3" type="audio/mp4"></audio><br>&gamma; = -240</td>
+                                   <td class="text-center"   ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_RAND_a-120.mp3" type="audio/mp4"></audio><br>&gamma; = -120</td>
+                                   <td class="text-center" style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;"  ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_RAND_a-40.mp3" type="audio/mp4"></audio><br>&gamma; = -40</td>
+                                    <td class="text-center"><audio class="shorteraudio" controls><source src="./resources/audio/orig/ManSpeakingBGNoise.mp3" type="audio/mp4"></audio></td>
+                                   <td class="text-center" style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;"  "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_RAND_a40.mp3" type="audio/mp4"></audio><br>&gamma; = 40</td>
+                                   <td class="text-center"   "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_RAND_a120.mp3" type="audio/mp4"></audio><br>&gamma; = 120</td>
+                                   <td class="text-center"  style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;" "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_RAND_a240.mp3" type="audio/mp4"></audio><br>&gamma; = 240</td>
+                                    <td></td>
+                                    <td class="text-center">t'&isin;[115, 95]<br><br>PC #1</td>
+                                </tr>
+                                <tr>
+                                    <td>Ours</td>
+                                    <td class="text-center">&mdash;</td>
+                                   <td class="text-center"  style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;" ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a-60.mp3" type="audio/mp4"></audio><br>&gamma; = -60</td>
+                                   <td class="text-center"   ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a-40.mp3" type="audio/mp4"></audio><br>&gamma; = -40</td>
+                                   <td class="text-center" style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;"  ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a-20.mp3" type="audio/mp4"></audio><br>&gamma; = -20</td>
+                                    <td class="text-center"><audio class="shorteraudio" controls><source src="./resources/audio/orig/ManSpeakingBGNoise.mp3" type="audio/mp4"></audio></td>
+                                   <td class="text-center" style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;"  "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a20.mp3" type="audio/mp4"></audio><br>&gamma; = 20</td>
+                                   <td class="text-center"   "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a40.mp3" type="audio/mp4"></audio><br>&gamma; = 40</td>
+                                   <td class="text-center"  style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;" "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/ManSpeakingBGNoise_ours_115-95_pc1_a60.mp3" type="audio/mp4"></audio><br>&gamma; = 60</td>
+                                    <td>Isolate Woman/Man</td>
+                                    <td class="text-center">t'&isin;[115, 95]<br><br>PC #1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">5</th>
+                                    <td>Random</td>
+                                    <td>A recording of an old timey rock song from the sixties.</td>
+                                   <td class="text-center"  style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;" ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_RAND_a-12.mp3" type="audio/mp4"></audio><br>&gamma; = -12</td>
+                                   <td class="text-center"   ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_RAND_a-8.mp3" type="audio/mp4"></audio><br>&gamma; = -8</td>
+                                   <td class="text-center" style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;"  ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_RAND_a-2.mp3" type="audio/mp4"></audio><br>&gamma; = -2</td>
+                                    <td class="text-center"><audio class="shorteraudio" controls><source src="./resources/audio/orig/MDDBRock_8secs.mp3" type="audio/mp4"></audio></td>
+                                   <td class="text-center" style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;"  "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_RAND_a2.mp3" type="audio/mp4"></audio><br>&gamma; = 2</td>
+                                   <td class="text-center"   "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_RAND_a8.mp3" type="audio/mp4"></audio><br>&gamma; = 8</td>
+                                   <td class="text-center"  style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;" "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_RAND_a12.mp3" type="audio/mp4"></audio><br>&gamma; = 12</td>
+                                    <td></td>
+                                    <td class="text-center">t'&isin;[200, -1]<br>Specific t=65 used<br>PCs 1+2+3</td>
+                                </tr>
+                                <tr>
+                                    <td>Ours</td>
+                                    <td>A recording of an old timey rock song from the sixties.</td>
+                                   <td class="text-center"  style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;" ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_a-2.mp3" type="audio/mp4"></audio><br>&gamma; = -2</td>
+                                   <td class="text-center"   ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_a-1.mp3" type="audio/mp4"></audio><br>&gamma; = -1</td>
+                                   <td class="text-center" style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;"  ><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_a-0.5.mp3" type="audio/mp4"></audio><br>&gamma; = -0.5</td>
+                                    <td class="text-center"><audio class="shorteraudio" controls><source src="./resources/audio/orig/MDDBRock_8secs.mp3" type="audio/mp4"></audio></td>
+                                   <td class="text-center" style="border-left-style:inherit !important; border-left-width:0.1rem!important;border-left-color:inherit!important;"  "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_a0.5.mp3" type="audio/mp4"></audio><br>&gamma; = 0.5</td>
+                                   <td class="text-center"   "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_a1.mp3" type="audio/mp4"></audio><br>&gamma; = 1</td>
+                                   <td class="text-center"  style="border-right-style:inherit !important; border-right-width:0.1rem!important;border-right-color:inherit!important;" "><audio class="shorteraudio" controls><source src="./resources/audio/unsup_samples/MDDBRock_ours_200--1_spts65_pcs_a2.mp3" type="audio/mp4"></audio><br>&gamma; = 2</td>
+                                    <td>Guitar/Singer emphasis</td>
+                                    <td class="text-center">t'&isin;[200, -1]<br>Specific t=65 used<br>PCs 1+2+3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+
+
                 </div>
 			</center>
 		<br>

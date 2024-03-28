@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  	<link href="stylefile.css" rel="stylesheet" type="text/css">
+	<meta property="og:image" content="resources/teaser.png"/> 
+	<meta property="og:title" content="Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion" />
+	<meta property="og:description" content="Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/ad96f96272.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="functionality.js"></script>
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<!-- navigation bar on the top, nav bar stick to the top -->
+	<nav id="navbar_top" class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary" style="margin-bottom: 15px;">
+		<div class="container">
+				<a class="navbar-brand" href="index.html"><i class="fa fa-arrow-left"></i> Back to homepage</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div> 
+		</nav>
+	<!-- end nav bar -->
+
+	<div class="container-xl"> 
+		<!-- top button -->
+		<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+			<i class="fas fa-arrow-up"></i>
+		</button>
+		<!-- end top button -->
+
+		<center>
+			<h1 style="font-size:2.25rem!important;">Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion</h1>
+		<h1 class="text-center" style="margin-top: 10px;">Rebuttal</h1>
+
+		<hr>
+            <h3 id="cfg-target" class="anchor">
+                Classifier-Free Guidance Strength for Target Prompts</h3>
+            <center>
+               <img src="resources/cfg_target.png" style="width: 100%; max-width: 600px;"><br>
+               <div style="max-width:800px; text-align: left;">
+               The plot compares SDEdit (Meng et al., 2021), DDIM Inversion and our method over the MusicDelta subset in MedleyDB (Bittner et al., 2014), using our prompts dataset.
+               Our method and SDEdit are shown with target-prompt classifier-free guidance strengths ranging between 8 and 16.
+               DDIM Inversion is shown with target-prompt classifier-free guidance strengths ranging between 3 and 12.
+               The floating numbers indicate the target-prompt classifier-free guidance strength for each method.
+               <br>
+               The results show that the chosen strength for SDEdit (12) and DDIM Inversion (5) are the best considering the tradeoff between text-adherence
+               and LPAPS to the original signal.
+               Our method can achieve even slightly better LPAPS scores while retaining the same CLAP score when lowering the strength below the value of 12, which we used in our experiments. 
+                </div>
+			</center>
+
+		<br>
+</div>
+</body>
+</html>
+
